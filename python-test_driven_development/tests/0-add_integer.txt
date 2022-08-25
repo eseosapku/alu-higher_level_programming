@@ -1,4 +1,4 @@
-AOAThe ``0-add_integer.py`` module
+The ``0-add_integer.py`` module
 ----------------------------
 
 Using ``add_integer`` function
@@ -19,11 +19,11 @@ checking function documentation:
 	True
 
 checking use of both integers:
-	>>> add_integer(1, 0)
-	1
+	>>> add_integer(1, 1)
+	2
 
 checking int and float:
-	>>> add_integer(1, 1.4)
+	>>> add_integer(1, 1.2)
 	2
 
 checking float and int:
@@ -31,7 +31,7 @@ checking float and int:
 	2
 
 checking float and float:
-	>>> add_integer(1.1, 1.2)
+	>>> add_integer(1.2, 1.2)
 	2
 
 checking int  input:
@@ -62,7 +62,7 @@ check string and string:
 
 checking for overflow:
 	>>> add_integer(1, float('inf'))
-	Traceback (most recent call last):OA
+	Traceback (most recent call last):
 	...
 	OverflowError: cannot convert float infinity to integer
 
