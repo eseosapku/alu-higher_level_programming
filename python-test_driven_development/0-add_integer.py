@@ -15,4 +15,4 @@ def add_integer(a=0, b=98):
         a = int(a)
     if type(b) is float:
         b = int(b)
-    return a + 
+    return a + b
