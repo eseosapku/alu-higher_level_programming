@@ -19,20 +19,20 @@ checking function documentation:
 	True
 
 checking use of both integers:
-	>>> add_integer(1, 1)
-	2
+	>>> add_integer(1, 0)
+	1
 
 checking int and float:
-	>>> add_integer(1, 1.2)
-	2
+	>>> add_integer(9, 1.2)
+	10
 
 checking float and int:
 	>>> add_integer(1.2, 1)
 	2
 
 checking float and float:
-	>>> add_integer(1.2, 1.2)
-	2
+	>>> add_integer(11.1, 1.2)
+	12
 
 checking int  input:
 	>>> add_integer(1)
@@ -62,7 +62,7 @@ check string and string:
 
 checking for overflow:
 	>>> add_integer(1, float('inf'))
-	Traceback (most recent call last):
+	Traceback (most recent call last):OA
 	...
 	OverflowError: cannot convert float infinity to integer
 
