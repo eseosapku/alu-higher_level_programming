@@ -1,4 +1,4 @@
-The ``0-add_integer.py`` module
+AOAThe ``0-add_integer.py`` module
 ----------------------------
 
 Using ``add_integer`` function
@@ -23,16 +23,16 @@ checking use of both integers:
 	1
 
 checking int and float:
-	>>> add_integer(1, 5.2)
-	6
+	>>> add_integer(1, 1.4)
+	2
 
 checking float and int:
 	>>> add_integer(1.2, 1)
 	2
 
 checking float and float:
-	>>> add_integer(1.1, 9.2)
-	10
+	>>> add_integer(1.1, 1.2)
+	2
 
 checking int  input:
 	>>> add_integer(1)

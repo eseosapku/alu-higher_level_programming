@@ -1,8 +1,9 @@
 #!/usr/bin/python3
 
 """
-add 2 different
-integers
+    add 2 different
+    integers
+
 """
 
 def add_integer(a=0, b=98):
