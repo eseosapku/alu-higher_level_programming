@@ -17,4 +17,4 @@ def text_indentation(text):
         if c in ['.', '?', ':']:
             print((line + '\n').lstrip(' '))
             line = ""
-    print(line.lstrip(' '), end=""
+    print(line.lstrip(' '), end="")
