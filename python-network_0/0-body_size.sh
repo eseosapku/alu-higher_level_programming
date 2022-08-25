@@ -1,3 +1,3 @@
 #!/bin/bash
-# script that sends request and return the size of body response
+# getting content and displaying just content lenght information 
 curl -sI "$1" | grep "Content-Length" | cut -d' ' -f 2
