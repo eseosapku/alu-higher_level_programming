@@ -19,6 +19,4 @@ if __name__ == "__main__":
             print(i)
     # close cursor and db
     cur.close()
-    :x
-
-
+    db.close()
