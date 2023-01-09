@@ -5,7 +5,7 @@ if (process.argv[2] === undefined || isNaN(process.argv[2])) {
 } else {
   let i = 0;
   while (i < number) {
-    console.log('x' * number);
+    console.log(X.repeat(number);
     i++;
   }
 }
