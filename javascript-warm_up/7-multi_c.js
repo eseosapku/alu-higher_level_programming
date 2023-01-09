@@ -6,7 +6,7 @@ if (process.argv[2] === undefined || isNaN(process.argv[2])) {
   let i = 0;
   while (i < number) {
     console.log('C is fun');
-    number = number - 1
+    number=number - 1
   }
 }
 
